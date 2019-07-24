@@ -1,4 +1,6 @@
-# ERD Script   employees
+# ERD Script
+
+employees
 -
 emp_no INT PK
 birth_date DATE
@@ -39,3 +41,4 @@ emp_no INT FK >- employees.emp_no
 title VARCHAR
 from_date DATE
 to_date DATE
+
